@@ -8,7 +8,7 @@ Version: 1.00
 
 EZ-SVG v1.00 contains 125 SVG-icons.
 
-EZ-SVG is a free-to-use icon gallery built inside JavaScript -file. It offers an easy way to use common SVG-icons on your HTML project. SVG-icons are created inside JavaScript -file with necessary path-, size-, and and color properties. Icon are then called on document with <i> -tag containing a CSS-class corresponding to specific icon. On document, EZ-icons work as dynamic inline-elements, inheriting size- and color properties from parent element. Simple.
+EZ-SVG is a free-to-use icon gallery built inside JavaScript -file. It offers an easy way to use common SVG-icons on your HTML project. SVG-icons are created inside JavaScript -file with necessary path-, size-, and and color properties. Icons are then called on document with <i> -tag containing a CSS-class corresponding to specific icon. On document, EZ-icons work as dynamic inline-elements, inheriting size- and color properties from parent element. Simple.
 
 
 
