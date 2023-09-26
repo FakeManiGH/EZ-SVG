@@ -1,0 +1,287 @@
+/* ---------- GENERAL STYLES ---------- */
+
+* {
+    scroll-behavior: smooth;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video icon {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+hr {
+    border-top: none;
+	width: 100%;
+	margin: 10px 0 10px 0;
+	border-bottom: 1px dashed #111;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    background: #e6e6e6;
+    min-height: 100vh;
+}
+
+h1, h2 ,h3 ,h4, p, a, ul, li {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.title {font-size: 3.75em; color: #e6e6e6;}
+h1 {font-size: 3em; color: #111;}
+h2 {font-size: 2.5em; color: #111;}
+h3 {font-size: 2em; color: #111;}
+h4 {font-size: 1.5em; color: #111;}
+h5 {font-size: 1.25em; color: #111;}
+h6 {font-size: 1em; color: #111;}
+
+.spreaded {letter-spacing: 1.5px;}
+.big-word {font-size: 1.35em; text-transform: uppercase;}
+.bold-txt {font-weight: bold;}
+.upper {text-transform: uppercase;}
+.small {font-size: .9em;}
+strong {font-weight: bold;}
+
+p {
+    font-family: system-ui, sans-serif;
+    font-weight: normal;
+    font-size:  1em;
+    color: #111;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+a {
+    font-family: system-ui , sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: #faa500;
+    white-space: nowrap;
+}
+
+a:hover, a.active {
+    color: #fa4500;
+}
+
+.file {
+    color: #38B6FF;
+}
+
+.blue {color: #38b6ff;}
+.yellow {color: #ffa500;}
+.green {color: #399c39;}
+.orange {color: #fa4500;}
+.white {color: #e6e6e6;}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: fit-content;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: .9em;
+    color: #111;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    background: #e6e6e6;
+    text-decoration: none;
+}
+
+.btn:hover, .btn.active {
+    background: #111;
+    color: #399c39;
+}
+
+.github-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    padding: 14px 20px;
+    font-family: system-ui, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #e6e6e6;
+    border-radius: 50px;
+    color: #e6e6e6;
+}
+
+.github-btn:hover {
+    color: #399C39;
+    border: 2px solid #399C39;
+}
+
+
+
+/* ---------- HEADER STYLES ---------- */
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 50px 20px;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    border-bottom: 15px solid #399c39;
+    gap: 20px;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+.ta-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+}
+
+.header-btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+/* ---------- MAIN STYLES ---------- */
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1080px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+}
+
+.content-list {
+    position: relative;
+    top: 0px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background-color: #e6e6e6;
+    z-index: 1;
+}
+
+.example-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    list-style: none;
+}
+
+.example-icons icon {
+    font-size: 1.2em;
+}
+
+.box {
+    padding: 2px 5px;
+    border-radius: 3px;
+    border: 1px solid #b1b1b1;
+    background: #d6d6d6;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+}
+
+.setup-list {
+    display: flex;
+    flex-direction: column;
+    list-style: decimal;
+    gap: 15px;
+    padding-left: 40px;
+    font-family: system-ui, sans-serif;
+}
+
+.setup-list li::marker {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.example-img {
+    padding: 10px;
+    max-width: 275px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 25%;
+}
+
+#icon-list {
+    display: none;
+    border-collapse: collapse;
+}
+
+#icon-size {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+th, td {
+    font-family: system-ui, sans-serif;
+    font-size: 1em;
+    border: 1px solid #111;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.ez {
+    font-size: 1.3em;
+}
+
+th {
+    background-color: #111;
+    color: #fff;
+    border-bottom: 5px solid #399c39;
+}
+
+tr:hover {
+    background: #d1d1d1;
+}
+
+.disc-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 40px;
+}

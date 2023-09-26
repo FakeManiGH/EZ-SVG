@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ-SVG - Info</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+<body>
+
+<!-- HEADER -->
+
+    <header>
+        <img class="logo" src="images/ez_svg.svg" alt="Timo Anjala Logo">
+        <h1 class="title">EZ-SVG</h1>
+        <p class="big-word white spreaded">Version 1.00</p>
+        <ul class="header-btns">
+            <li><button class="github-btn" onclick="window.open('https://github.com/FakeManiGH/ez-svg','_blank')">View Project in GitHub</button></li>
+            <li><button class="github-btn" onclick="window.open('https://timoanjala.com/projects/ez-svg.html')">View Project Website</button></li>
+        </ul>
+        <img src="images/scripple-logo.png" alt="Timo Anjala Logo" class="ta-logo">
+    </header>
+
+<!-- MAIN -->
+
+    <main>
+        <!-- Page Navigation -->
+        <nav class="content-list">
+            <a href="#overview" class="btn">OVERVIEW</a>
+            <a href="#setup" class="btn">SETUP</a>
+            <a href="#how-to-use" class="btn">HOW TO USE ICONS</a>
+            <a href="#full-icon-list" class="btn">FULL ICON LIST</a>
+            <a href="#manual-icon-size" class="btn">MANUAL ICON SIZE</a>
+            <a href="#license" class="btn">LICENSE</a>
+            <a href="#help" class="btn">NEED HELP?</a>
+        </nav><br>
+
+
+        <!-- Content: Overview -->
+
+        <h2 id="overview">OVERVIEW</h2>
+        <p>Icons are great addition to any website, app, or service. <strong>Icons make it easier for users to navigate pages, preceive content, and identify where they are</strong>. 
+            Icons are also great way to highlight important content for user. In my learned opinion, icons can also make work more productive. Less time you need for looking at the right link, page, or form,
+            more time you have for other important work. There is no denying that icons are part of productive interaction on internet.</p>
+        
+        <ul class="example-icons">
+            <li><i class="ez-home"></i></li>
+            <li><i class="ez-user"></i></li>
+            <li><i class="ez-car"></i></li>
+            <li><i class="ez-arrow-right"></i></li>
+            <li><i class="ez-office"></i></li>
+            <li><i class="ez-terminal"></i></li>
+            <li><i class="ez-file"></i></li>
+            <li><i class="ez-trash"></i></li>
+            <li><i class="ez-clock"></i></li>
+            <li><i class="ez-car"></i></li>
+            <li><i class="ez-arrow-right"></i></li>
+            <li><i class="ez-home"></i></li>
+            <li><i class="ez-rotate"></i></li>
+        </ul>
+
+        <p><strong>EZ-SVG</strong> is a JavaScript- and Graphics -project with main purpose of providing <strong>easy access</strong> to common svg-icons <strong>for anyone</strong> working on a website-, app-, or service project.
+            EZ-SVG contains a library of svg-icons that are stored inside JavaScript -file. From there, icons can be called on a document with CSS -class.</p>
+
+        <hr>
+        
+
+        <!-- Content: Overview -->
+
+        <h2 id="setup">SETUP</h2>
+
+        <p>EZ-SVG icon gallery is easy to setup with only 3 steps.</p>
+
+        <ul class="setup-list">
+            <li>Download latest release of EZ-SVG.zip from GitHub.</li>
+            <li>Extract <span class="box">ez-svg.js</span> file from ZIP to your project folder. Only the one file is needed.</li>
+            <li>
+                Link the file to your project HTML document, at the end of <span class="box">&lt;body&gt;</span> -section (inside).<br>
+                <span class="box">&lt;<span class="blue">script</span> src="<span class="orange">location/of/ez-svg.js</span>"&gt;&lt;/<span class="blue">script</span>&gt;</span>
+            </li>
+            <li>You can now use the icons.</li>
+        </ul>
+        <hr>
+
+
+        <!-- Content: How to use -->
+
+        <h2 id="how-to-use">HOW TO USE ICONS</h2>
+        <ul class="setup-list">
+            <li>
+                Once you have uploaded and linked <span class="box">ez-svg.js</span> file on your project, you can call EZ-icons on your HTML document with <span class="box">&lt;i&gt;</span> -tag containing CSS-class. <strong>Each icon has an unique class-name.</strong>
+                <span class="box">&lt;<span class="blue">i</span> class="<span class="orange">ez-brush</span>"&gt;&lt;/<span class="blue">i</span>&gt;</span> = <i class="ez-brush ez-s"></i>.
+            </li><br>
+            
+            <li>
+                Second way is to link SVG-image(s) in external CSS -file. Package includes independend <span class="box bold-txt">SVG</span> -images. Create CLASS or ID for wanted icon and add external SVG -image as <strong>content</strong>. 
+                When this is done, you can use icon as follows <span class="box">&lt;<span class="blue">i</span> class="<span class="orange">comment-icon</span>"&gt;&lt;/<span class="blue">i</span>&gt;</span>.<br>
+                <img src="images/css-link-example.jpg" class="example-img" alt="example image of linking svg to css -file"><br>
+                <i class="ez-info"></i> <span class="small italic"><em>Icon size will be dynamic and changes with parent element, but icon color will be static.</em></span>
+            </li><br>
+
+            <li>
+                You can also use icons as image-elements. As SVG-images are string of code insted of an image, normal sharpness rules don't apply to them. SVG images scale up infinitely with orginal sharpness.
+                Logo at the header of this page is an SVG-image.<br><br>
+                <i class="ez-info"></i> <span class="small italic"><em>When using SVG as image-element, it must be manually sized with CSS and color can be modified inside the SVG-file. You can open it with text-editor.</em></span>
+            </li>
+        </ul>
+
+        <hr>
+
+
+        <!-- Content: Full icon list -->
+
+        <h2 id="full-icon-list">FULL ICON LIST (A to Z)</h2>
+        <p>EZ-SVG 1.00 contains <strong>125</strong> unique icons.</p>
+        <a href="javascript:void(0);" id="list-btn" class="btn">Show Icons</a>
+
+        <table id="icon-list">
+            <tr>
+                <th>ICON</th>
+                <th>CLASS NAME</th>
+            </tr>
+            <tr>
+                <td><i class="ez-accept"></i></td>
+                <td>accept</td>
+            </tr>
+            <tr>
+                <td><i class="ez-apps"></i></td>
+                <td>apps</td>
+            </tr>
+            <tr>
+                <td><i class="ez-arrow-back"></i></td>
+                <td>arrow-back</td>
+            </tr>
+            <tr>
+                <td><i class="ez-arrow-down"></i></td>
+                <td>arrow-down</td>
+            </tr>
+            <tr>
+                <td><i class="ez-arrow-forward"></i></td>
+                <td>arrow-forward</td>
+            </tr>
+            <tr>
+                <td><i class="ez-arrow-left"></i></td>
+                <td>arrow-left</td>
+            </tr>
+            <tr>
+                <td><i class="ez-arrow-right"></i></td>
+                <td>arrow-right</td>
+            </tr>
+            <tr>
+                <td><i class="ez-arrow-up"></i></td>
+                <td>arrow-up</td>
+            </tr>
+            <tr>
+                <td><i class="ez-audio"></i></td>
+                <td>audio</td>
+            </tr>
+            <tr>
+                <td><i class="ez-bell"></i></td>
+                <td>bell</td>
+            </tr>
+            <tr>
+                <td><i class="ez-bluetooth"></i></td>
+                <td>bluetooth</td>
+            </tr>
+            <tr>
+                <td><i class="ez-book"></i></td>
+                <td>book</td>
+            </tr>
+            <tr>
+                <td><i class="ez-bookmark"></i></td>
+                <td>bookmark</td>
+            </tr>
+            <tr>
+                <td><i class="ez-briefcase"></i></td>
+                <td>briefcase</td>
+            </tr>
+            <tr>
+                <td><i class="ez-brightness-down"></i></td>
+                <td>brightness-down</td>
+            </tr>
+            <tr>
+                <td><i class="ez-brightness-up"></i></td>
+                <td>brightness-up</td>
+            </tr>
+            <tr>
+                <td><i class="ez-brush"></i></td>
+                <td>brush</td>
+            </tr>
+            <tr>
+                <td><i class="ez-burger"></i></td>
+                <td>burger</td>
+            </tr>
+            <tr>
+                <td><i class="ez-bus"></i></td>
+                <td>bus</td>
+            </tr>
+            <tr>
+                <td><i class="ez-calculator"></i></td>
+                <td>calculator</td>
+            </tr>
+            <tr>
+                <td><i class="ez-calendar"></i></td>
+                <td>calendar</td>
+            </tr>
+            <tr>
+                <td><i class="ez-camera"></i></td>
+                <td>camera</td>
+            </tr>
+            <tr>
+                <td><i class="ez-car"></i></td>
+                <td>car</td>
+            </tr>
+            <tr>
+                <td><i class="ez-cd-rom"></i></td>
+                <td>cd-rom</td>
+            </tr>
+            <tr>
+                <td><i class="ez-clock"></i></td>
+                <td>clock</td>
+            </tr>
+            <tr>
+                <td><i class="ez-cloud-download"></i></td>
+                <td>cloud-download</td>
+            </tr>
+            <tr>
+                <td><i class="ez-cloud-upload"></i></td>
+                <td>cloud-upload</td>
+            </tr>
+            <tr>
+                <td><i class="ez-cloud"></i></td>
+                <td>cloud</td>
+            </tr>
+            <tr>
+                <td><i class="ez-code-simple"></i></td>
+                <td>code-simple</td>
+            </tr>
+            <tr>
+                <td><i class="ez-comment"></i></td>
+                <td>comment</td>
+            </tr>
+            <tr>
+                <td><i class="ez-computer-chip"></i></td>
+                <td>computer-chip</td>
+            </tr>
+            <tr>
+                <td><i class="ez-connection"></i></td>
+                <td>connection</td>
+            </tr>
+            <tr>
+                <td><i class="ez-cycle"></i></td>
+                <td>cycle</td>
+            </tr>
+            <tr>
+                <td><i class="ez-database"></i></td>
+                <td>database</td>
+            </tr>
+            <tr>
+                <td><i class="ez-display"></i></td>
+                <td>display</td>
+            </tr>
+            <tr>
+                <td><i class="ez-divide"></i></td>
+                <td>divide</td>
+            </tr>
+            <tr>
+                <td><i class="ez-dots-horizontal"></i></td>
+                <td>dots-horizontal</td>
+            </tr>
+            <tr>
+                <td><i class="ez-dots-vertical"></i></td>
+                <td>dots-vertical</td>
+            </tr>
+            <tr>
+                <td><i class="ez-download"></i></td>
+                <td>download</td>
+            </tr>
+            <tr>
+                <td><i class="ez-factory"></i></td>
+                <td>factory</td>
+            </tr>
+            <tr>
+                <td><i class="ez-file-pdf"></i></td>
+                <td>file-pdf</td>
+            </tr>
+            <tr>
+                <td><i class="ez-file-zip"></i></td>
+                <td>file-zip</td>
+            </tr>
+            <tr>
+                <td><i class="ez-file"></i></td>
+                <td>file</td>
+            </tr>
+            <tr>
+                <td><i class="ez-film"></i></td>
+                <td>film</td>
+            </tr>
+            <tr>
+                <td><i class="ez-filter"></i></td>
+                <td>filter</td>
+            </tr>
+            <tr>
+                <td><i class="ez-flip-horizontally"></i></td>
+                <td>flip-horizontally</td>
+            </tr>
+            <tr>
+                <td><i class="ez-flip-vertically"></i></td>
+                <td>flip-vertically</td>
+            </tr>
+            <tr>
+                <td><i class="ez-floppy-disk"></i></td>
+                <td>floppy-disk</td>
+            </tr>
+            <tr>
+                <td><i class="ez-folder"></i></td>
+                <td>folder</td>
+            </tr>
+            <tr>
+                <td><i class="ez-fullscreen-off"></i></td>
+                <td>fullscreen-off</td>
+            </tr>
+            <tr>
+                <td><i class="ez-fullscreen"></i></td>
+                <td>fullscreen</td>
+            </tr>
+            <tr>
+                <td><i class="ez-gear"></i></td>
+                <td>gear</td>
+            </tr>
+            <tr>
+                <td><i class="ez-globe"></i></td>
+                <td>globe</td>
+            </tr>
+            <tr>
+                <td><i class="ez-headphones"></i></td>
+                <td>headphones</td>
+            </tr>
+            <tr>
+                <td><i class="ez-heart"></i></td>
+                <td>heart</td>
+            </tr>
+            <tr>
+                <td><i class="ez-home"></i></td>
+                <td>home</td>
+            </tr>
+            <tr>
+                <td><i class="ez-hot-food"></i></td>
+                <td>hot-food</td>
+            </tr>
+            <tr>
+                <td><i class="ez-image"></i></td>
+                <td>image</td>
+            </tr>
+            <tr>
+                <td><i class="ez-images"></i></td>
+                <td>images</td>
+            </tr>
+            <tr>
+                <td><i class="ez-info"></i></td>
+                <td>info</td>
+            </tr>
+            <tr>
+                <td><i class="ez-key"></i></td>
+                <td>key</td>
+            </tr>
+            <tr>
+                <td><i class="ez-keyboard"></i></td>
+                <td>keyboard</td>
+            </tr>
+            <tr>
+                <td><i class="ez-laptop"></i></td>
+                <td>laptop</td>
+            </tr>
+            <tr>
+                <td><i class="ez-list-az"></i></td>
+                <td>list-az</td>
+            </tr>
+            <tr>
+                <td><i class="ez-list-za"></i></td>
+                <td>list-za</td>
+            </tr>
+            <tr>
+                <td><i class="ez-list"></i></td>
+                <td>list</td>
+            </tr>
+            <tr>
+                <td><i class="ez-link"></i></td>
+                <td>link</td>
+            </tr>
+            <tr>
+                <td><i class="ez-lock-open"></i></td>
+                <td>lock-open</td>
+            </tr>
+            <tr>
+                <td><i class="ez-lock"></i></td>
+                <td>lock</td>
+            </tr>
+            <tr>
+                <td><i class="ez-magnet"></i></td>
+                <td>magnet</td>
+            </tr>
+            <tr>
+                <td><i class="ez-magnifying-glass"></i></td>
+                <td>magnifying-glass</td>
+            </tr>
+            <tr>
+                <td><i class="ez-mail"></i></td>
+                <td>mail</td>
+            </tr>
+            <tr>
+                <td><i class="ez-map-pin"></i></td>
+                <td>map-pin</td>
+            </tr>
+            <tr>
+                <td><i class="ez-meeting-video"></i></td>
+                <td>meeting-video</td>
+            </tr>
+            <tr>
+                <td><i class="ez-megaphone"></i></td>
+                <td>megaphone</td>
+            </tr>
+            <tr>
+                <td><i class="ez-microphone"></i></td>
+                <td>microphone</td>
+            </tr>
+            <tr>
+                <td><i class="ez-minus"></i></td>
+                <td>minus</td>
+            </tr>
+            <tr>
+                <td><i class="ez-mobilephone"></i></td>
+                <td>mobilephone</td>
+            </tr>
+            <tr>
+                <td><i class="ez-mouse"></i></td>
+                <td>mouse</td>
+            </tr>
+            <tr>
+                <td><i class="ez-music-note"></i></td>
+                <td>music-note</td>
+            </tr>
+            <tr>
+                <td><i class="ez-office"></i></td>
+                <td>office</td>
+            </tr>
+            <tr>
+                <td><i class="ez-pause"></i></td>
+                <td>pause</td>
+            </tr>
+            <tr>
+                <td><i class="ez-pen"></i></td>
+                <td>pen</td>
+            </tr>
+            <tr>
+                <td><i class="ez-phone-ringing"></i></td>
+                <td>phone-ringing</td>
+            </tr>
+            <tr>
+                <td><i class="ez-play"></i></td>
+                <td>play</td>
+            </tr>
+            <tr>
+                <td><i class="ez-plus"></i></td>
+                <td>plus</td>
+            </tr>
+            <tr>
+                <td><i class="ez-popup-close"></i></td>
+                <td>popup-close</td>
+            </tr>
+            <tr>
+                <td><i class="ez-popup-window"></i></td>
+                <td>popup-window</td>
+            </tr>
+            <tr>
+                <td><i class="ez-printer"></i></td>
+                <td>printer</td>
+            </tr>
+            <tr>
+                <td><i class="ez-question"></i></td>
+                <td>question</td>
+            </tr>
+            <tr>
+                <td><i class="ez-record"></i></td>
+                <td>record</td>
+            </tr>
+            <tr>
+                <td><i class="ez-recycle"></i></td>
+                <td>recycle</td>
+            </tr>
+            <tr>
+                <td><i class="ez-reject"></i></td>
+                <td>reject</td>
+            </tr>
+            <tr>
+                <td><i class="ez-robot"></i></td>
+                <td>robot</td>
+            </tr>
+            <tr>
+                <td><i class="ez-rotate"></i></td>
+                <td>rotate</td>
+            </tr>
+            <tr>
+                <td><i class="ez-router"></i></td>
+                <td>router</td>
+            </tr>
+            <tr>
+                <td><i class="ez-scissors"></i></td>
+                <td>scissors</td>
+            </tr>
+            <tr>
+                <td><i class="ez-server"></i></td>
+                <td>server</td>
+            </tr>
+            <tr>
+                <td><i class="ez-share"></i></td>
+                <td>share</td>
+            </tr>
+            <tr>
+                <td><i class="ez-shopping-bag"></i></td>
+                <td>shopping-bag</td>
+            </tr>
+            <tr>
+                <td><i class="ez-shopping-cart"></i></td>
+                <td>shopping-cart</td>
+            </tr>
+            <tr>
+                <td><i class="ez-sitemap"></i></td>
+                <td>sitemap</td>
+            </tr>
+            <tr>
+                <td><i class="ez-skip-backwards"></i></td>
+                <td>skip-backwards</td>
+            </tr>
+            <tr>
+                <td><i class="ez-skip-forward"></i></td>
+                <td>skip-forward</td>
+            </tr>
+            <tr>
+                <td><i class="ez-sort"></i></td>
+                <td>sort</td>
+            </tr>
+            <tr>
+                <td><i class="ez-speaker"></></td>
+                <td>speaker</td>
+            </tr>
+            <tr>
+                <td><i class="ez-speakers"></i></td>
+                <td>speakers</td>
+            </tr>
+            <tr>
+                <td><i class="ez-star"></i></td>
+                <td>star</td>
+            </tr>
+            <tr>
+                <td><i class="ez-stop"></i></td>
+                <td>stop</td>
+            </tr>
+            <tr>
+                <td><i class="ez-sun"></i></td>
+                <td>sun</td>
+            </tr>
+            <tr>
+                <td><i class="ez-target"></i></td>
+                <td>target</td>
+            </tr>
+            <tr>
+                <td><i class="ez-terminal"></i></td>
+                <td>terminal</td>
+            </tr>
+            <tr>
+                <td><i class="ez-times"></i></td>
+                <td>times</td>
+            </tr>
+            <tr>
+                <td><i class="ez-toolbox"></i></td>
+                <td>toolbox</td>
+            </tr>
+            <tr>
+                <td><i class="ez-tools"></i></td>
+                <td>tools</td>
+            </tr>
+            <tr>
+                <td><i class="ez-train"></i></td>
+                <td>train</td>
+            </tr>
+            <tr>
+                <td><i class="ez-trash"></i></td>
+                <td>trash</td>
+            </tr>
+            <tr>
+                <td><i class="ez-upload"></i></td>
+                <td>upload</td>
+            </tr>
+            <tr>
+                <td><i class="ez-user"></i></td>
+                <td>user</td>
+            </tr>
+            <tr>
+                <td><i class="ez-utensils"></i></td>
+                <td>utensils</td>
+            </tr>
+            <tr>
+                <td><i class="ez-video-camera"></i></td>
+                <td>video-camera</td>
+            </tr>
+            <tr>
+                <td><i class="ez-volume-off"></i></td>
+                <td>volume-off</td>
+            </tr>
+            <tr>
+                <td><i class="ez-volume-up"></i></td>
+                <td>volume-up</td>
+            </tr>
+            <tr>
+                <td><i class="ez-wifi"></i></td>
+                <td>wifi</td>
+            </tr>
+
+        </table>
+
+        <hr>
+
+
+        <!-- Content: Manual icon size -->
+
+        <h2 id="manual-icon-size">MANUAL ICON SIZE</h2>
+        <p>All icons can have manual <span class="box">size-class</span> added to them. There are 5 different sizes available: <span class="box">S</span>, <span class="box">M</span>, <span class="box">L</span>, <span class="box">XL</span>, <span class="box">XXL</span>.
+            Since all icons are naturally M-size (1em), manual size-class works as multiplier to it. Manual size-class is easy to apply. E.g.</p>
+        <p><span class="box">&lt;<span class="blue">i</span> class="<span class="orange">ez-brush ez-xl</span>"&gt;&lt;/<span class="blue">i</span>&gt;</span> = <i class="ez-brush ez-xl"></i></p>
+
+        <table id="icon-size">
+            <tr>
+                <th>ICON</th>
+                <th>SIZE</th>
+            </tr>
+            <tr>
+                <td><i class="ez-film ez-s"></i> ez-film <strong>ez-s</strong></td>
+                <td><strong>S</strong> | 0.75em</td>
+            </tr>
+            <tr>
+                <td><i class="ez-film ez-m"></i> ez-film <strong>ez-m</strong></td>
+                <td><strong>M</strong> | 1em</td>
+            </tr>
+            <tr>
+                <td><i class="ez-film ez-l"></i> ez-film <strong>ez-l</strong></td>
+                <td><strong>L</strong> | 1.2em</td>
+            </tr>
+            <tr>
+                <td><i class="ez-film ez-xl"></i> ez-film <strong>ez-xl</strong></td>
+                <td><strong>XL</strong> | 1.5em</td>
+            </tr>
+            <tr>
+                <td><i class="ez-film ez-xxl"></i> ez-film <strong>ez-xxl</strong></td>
+                <td><strong>XXL</strong> | 1.75em</td>
+            </tr>
+        </table>
+
+        <hr>
+
+
+        <!-- Content: License -->
+
+        <h2 id="license">LICENSE</h2>
+        <p>EZ-SVG is licensed under <a href="../license.txt" class="file">The MIT License</a>.</p>
+        <ul class="disc-list">
+            <li><strong>100% FREE.</strong> Icons are free to use in both personal and commercial work.</li>
+            <li><strong>PROVIDED AS IS, NO WARRANTY.</strong> If you break something with EZ-SVG code, there is no warranty. Be careful and read this info-page before implementing icons to your project.</li>
+            <li><strong>ATTRIBUTION IS REQUIRED.</strong> There is creator information embedded in .js -file which is not be removed. Any user-facing tags are not necessary.</li>
+            <li><strong>MODIFIED CLAUSE.</strong> If original icons are distinctively modified and then used independetly without "the script", mentioning of the origin is not required.</li>
+        </ul>
+
+        <br><hr>
+
+
+        <!-- Content: Help -->
+
+        <h2 id="help">NEED HELP?</h2>
+        <p>If you run into problem with EZ-SVG icons, follow these steps:</p>
+        <ul class="disc-list">
+            <li>Search Google and <a href="https://stackoverflow.com/" target="_blank">StackOverflow</a>, if someone has ran into same issue with you.</li>
+            <li>If problem is unique, <a href="https://stackoverflow.com/questions/ask" target="_blank">post a new question</a> with EZ-SVG tag.</li>
+        </ul>
+        <p><strong>! Github Issue reports are not to be used for posting personal support requests</strong></p>
+        
+
+        
+    </main>
+    <script src="../src/ez-svg.js"></script>
+    <script>
+        var ListBtn = document.getElementById('list-btn');
+        var iconListShow = document.getElementById('icon-list');
+        ListBtn.addEventListener('click', function() {
+            if (iconListShow.style.display === 'table') {
+                iconListShow.style.display = 'none';
+                ListBtn.innerHTML = 'Show Icons' ;
+            } else {
+                iconListShow.style.display = 'table';
+                ListBtn.innerHTML = 'Hide Icons';
+            }
+        });
+    </script>
+</body>
+</html>
